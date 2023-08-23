@@ -13,6 +13,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
+      <head>
+      <meta name="viewport" content="height=device-height, initial-scale=1" />
+      </head>
       <body>{children}</body>
     </html>
   )
