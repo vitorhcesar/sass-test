@@ -85,16 +85,16 @@ footer {
 
   width: 100%;
 
-  padding-inline: 1rem;
   div {
     display: flex;
     border-radius: 2rem;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 1rem;
     background: red;
     padding: 1rem;
 
     width: 100%;
-    max-width: 420px;
+    max-width: 260px;
 
     button {
       display: flex;
