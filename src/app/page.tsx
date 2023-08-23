@@ -30,9 +30,6 @@ export default function Home() {
           <button><AiFillHome className="icon" /></button>
           <button><FaShoppingBasket className="icon" /></button>
         </div>
-        <footer>
-          <p>Copyright: @devvitor</p>
-        </footer>
       </footer>
     </div>
   )
