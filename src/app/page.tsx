@@ -1,95 +1,39 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import { BsReverseListColumnsReverse } from 'react-icons/bs'
+import { AiFillHome } from 'react-icons/ai'
+import { FaShoppingBasket } from 'react-icons/fa'
+import { GiFireRay } from 'react-icons/gi'
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
+    <div id="app">
+      <header>
+        <GiFireRay className="logo" />
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Apps</a></li>
+          <li><a href="#">Docs</a></li>
+        </ul>
+      </header>
+      <main>
+        <section>
+          <h1>That is a site made for a test.</h1>
+          <p className='sub'>I love Rayssa, with <b>all my hearth</b>.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat amet, labore adipisci deserunt accusamus voluptas dolorum. Eveniet explicabo dolores dicta optio natus? Explicabo fugiat quo itaque illo velit mollitia obcaecati!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat amet, labore adipisci deserunt accusamus voluptas dolorum. Eveniet explicabo dolores dicta optio natus? Explicabo fugiat quo itaque illo velit mollitia obcaecati!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat amet, labore adipisci deserunt accusamus voluptas dolorum. Eveniet explicabo dolores dicta optio natus? Explicabo fugiat quo itaque illo velit mollitia obcaecati!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat amet, labore adipisci deserunt accusamus voluptas dolorum. Eveniet explicabo dolores dicta optio natus? Explicabo fugiat quo itaque illo velit mollitia obcaecati!</p>
+        </section>
+      </main>
+      <footer>
         <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+          <button><BsReverseListColumnsReverse className="icon" /></button>
+          <button><AiFillHome className="icon" /></button>
+          <button><FaShoppingBasket className="icon" /></button>
         </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+        <footer>
+          <p>Copyright: @devvitor</p>
+        </footer>
+      </footer>
+    </div>
   )
 }
