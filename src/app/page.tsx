@@ -11,8 +11,6 @@ export default function Home() {
       <header>
         <GiFireRay className="logo" />
         <ul>
-          <li><Link href='/home'>Home</Link></li>
-          <li><Link href="/"><span className='marked'>About</span></Link></li>
           <li><Link href='/docs'>Docs <ImNewTab /></Link></li>
         </ul>
       </header>
@@ -34,9 +32,8 @@ export default function Home() {
       </main>
       <footer>
         <div>
-          <button><BsReverseListColumnsReverse className="icon" /></button>
-          <button><AiFillHome className="icon" /></button>
-          <button><FaShoppingBasket className="icon" /></button>
+          <Link href='/home' className='button'><AiFillHome className="icon" /></Link>
+          <Link href='/' className='button-selected'><BsReverseListColumnsReverse className="icon" /></Link>
         </div>
       </footer>
     </div>

@@ -102,8 +102,7 @@ footer {
   justify-content: center;
   align-items: center;
 
-
-  position: sticky;
+  position: fixed;
   bottom: 0;
 
   width: 100%;
@@ -118,10 +117,26 @@ footer {
     background: $black;
     padding: 1rem;
 
-    width: 100%;
-    max-width: 260px;
+    position: sticky;
+    bottom: 0;
 
-    button {
+    width: 100%;
+    max-width: 200px;
+
+    .button {
+      display: flex;
+      padding: .5rem 1rem;
+      font-weight: 300;
+      border-radius: .75rem;
+      border: none;
+      background: $black;
+
+      .icon {
+        font-size: 1.5rem;
+        color: $white;
+      }
+    }
+    .button-selected {
       display: flex;
       padding: .5rem 1rem;
       font-weight: 300;
