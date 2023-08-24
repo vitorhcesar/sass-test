@@ -2,7 +2,6 @@ import { GiFireRay } from 'react-icons/gi'
 import { ImNewTab } from 'react-icons/im'
 import { BsReverseListColumnsReverse } from 'react-icons/bs'
 import { AiFillHome } from 'react-icons/ai'
-import { FaShoppingBasket } from 'react-icons/fa'
 
 import Link from 'next/link'
 
@@ -17,7 +16,7 @@ export default function HomePage () {
       </header>
       <main>
         <section>
-          
+          Essa é a homepage.
         </section>
       </main>
       <footer>

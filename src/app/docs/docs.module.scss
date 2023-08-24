@@ -29,4 +29,9 @@ $white: #FCFAF9;
       border-radius: .75rem;
     }
   }
+  .main {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2.5rem;
+  }
 }

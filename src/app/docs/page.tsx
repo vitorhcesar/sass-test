@@ -15,7 +15,8 @@ export default function DocsPage () {
           Back to home
         </Link>
       </header>
-      <main>
+      <main className={styles.main}>
+        <h1>Documentação</h1>
       </main>
       <footer>
       </footer>
