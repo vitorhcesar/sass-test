@@ -1,0 +1,32 @@
+$purple: #BF15D1;
+$black: #0D0C1D;
+$white: #FCFAF9;
+
+.docs {
+  .header {
+    background: $black;
+    align-items: center;
+  
+    div {
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+      .logo {
+        font-size: 2rem;
+      }
+      .logoText {
+        font-weight: 200;
+        font-size: 1.2rem;
+      }
+    }
+    .homeButton {
+      font-size: .8rem;
+      text-decoration: none;
+      color: $black;
+      padding: .4rem .6rem;
+      font-weight: 300;
+      background: $white;
+      border-radius: .75rem;
+    }
+  }
+}
